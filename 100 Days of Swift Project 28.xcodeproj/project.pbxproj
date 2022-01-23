@@ -13,6 +13,8 @@
 		C2F490E0279DE551000667B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F490DE279DE551000667B7 /* Main.storyboard */; };
 		C2F490E2279DE552000667B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F490E1279DE552000667B7 /* Assets.xcassets */; };
 		C2F490E5279DE552000667B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F490E3279DE552000667B7 /* LaunchScreen.storyboard */; };
+		C2F490EE279DE8ED000667B7 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F490EC279DE8ED000667B7 /* KeychainWrapper.swift */; };
+		C2F490EF279DE8ED000667B7 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F490ED279DE8ED000667B7 /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C2F490E1279DE552000667B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F490E4279DE552000667B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F490E6279DE552000667B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F490EC279DE8ED000667B7 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		C2F490ED279DE8ED000667B7 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C2F490D8279DE551000667B7 /* AppDelegate.swift */,
 				C2F490DA279DE551000667B7 /* SceneDelegate.swift */,
 				C2F490DC279DE551000667B7 /* ViewController.swift */,
+				C2F490ED279DE8ED000667B7 /* KeychainItemAccessibility.swift */,
+				C2F490EC279DE8ED000667B7 /* KeychainWrapper.swift */,
 				C2F490DE279DE551000667B7 /* Main.storyboard */,
 				C2F490E1279DE552000667B7 /* Assets.xcassets */,
 				C2F490E3279DE552000667B7 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F490DD279DE551000667B7 /* ViewController.swift in Sources */,
+				C2F490EE279DE8ED000667B7 /* KeychainWrapper.swift in Sources */,
 				C2F490D9279DE551000667B7 /* AppDelegate.swift in Sources */,
+				C2F490EF279DE8ED000667B7 /* KeychainItemAccessibility.swift in Sources */,
 				C2F490DB279DE551000667B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
